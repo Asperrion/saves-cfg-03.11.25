@@ -1,0 +1,46 @@
+* {
+    font-family: jetbrains mono nerd font;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding-bottom: 0;
+}
+
+/*left panel */
+#memory, #cpu, #custom-weather, #custom-prev, #custom-pause, #custom-next {
+    margin-top: 3px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#cpu, #custom-weather {
+    margin-left: 0;
+}
+
+#custom-cava {
+    margin-left: 150px;
+}
+
+#custom-prev, #custom-pause, #custom-next {
+    font-size: 15px;
+}
+
+#custom-pause, #custom-next {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+/* left panel */
+
+/* right panel */
+#clock, #network, #language{
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#language {
+    padding-left: 8px;
+    margin-right: 0;
+}
+/* right panel */
